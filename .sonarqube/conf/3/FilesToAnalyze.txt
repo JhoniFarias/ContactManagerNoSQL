@@ -1,0 +1,1 @@
+﻿C:\Users\jhoni\source\repos\ContactManagerNoSQL\ContactManager.Ioc\NativeInjectorBootstraper.cs

@@ -1,0 +1,2 @@
+﻿C:\Users\jhoni\source\repos\ContactManagerNoSQL\ContactManager.Domain\UserContext\Entities\User.cs
+C:\Users\jhoni\source\repos\ContactManagerNoSQL\ContactManager.Domain\UserContext\Repositories\IUserRepository.cs
