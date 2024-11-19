@@ -7,7 +7,7 @@ namespace ContactManager.API
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
 
@@ -16,7 +16,7 @@ namespace ContactManager.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            //builder.Services.AddMongoDb(builder.Configuration);
+            NativeInjectorBootstraper.RegisterServices(builder);
 
             var app = builder.Build();
 
